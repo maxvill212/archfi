@@ -1,3 +1,5 @@
+*Fork I am currently reviewing and modifying to fit my needs*
+
 # archfi
 
 Just a simple bash script wizard to install Arch Linux after you have booted on the official Arch Linux install media.
@@ -16,14 +18,7 @@ First, boot with the [last Arch Linux image](https://www.archlinux.org/download/
 
 Then make sure you have Internet connection on the Arch iso. If you have a wireless connection the [`iwctl`](https://wiki.archlinux.org/index.php/Iwd#iwctl) command might be useful to you. You can also read the [Network configuration](https://wiki.archlinux.org/index.php/Network_configuration) from the Arch Linux guide for more detailed instructions.
 
-Then download the script with from the command line:
-
-    curl -L archfi.sf.net/archfi > archfi
-
-If SourceForge is down, use this instead:
-
-    curl -L matmoul.github.io/archfi > archfi
-
+*Once the repo is downloaded/installed throuugh USBrun the script*
 Finally, launch the script:
 
     sh archfi
